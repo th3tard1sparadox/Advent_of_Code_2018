@@ -11,7 +11,6 @@ ad = 3
 while dies:
     died = False
     ad += 1
-    print(ad)
     units = {}
     for y, line in enumerate(inputs):
         for x, char in enumerate(line):
@@ -128,3 +127,4 @@ while dies:
 
     if not died:
         print((rounds - 1) * hp_sum)
+        break
